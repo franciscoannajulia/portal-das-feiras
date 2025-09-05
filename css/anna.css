@@ -1,0 +1,227 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.anuncio {
+height:auto; padding: 3%; align:center;height: auto;
+}
+.carousel-item {
+  height: 100%;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*BOTOES*/
+.btn-outline-anna{
+    border-color:#691509;
+    color: #691509;
+}
+.btn-outline-anna:hover {
+    background-color: #9c3021;
+    color: #fff;
+}
+.btn-anna{
+    background-color:#691509;
+    color: #fff;
+}
+.btn-anna:hover {
+    background-color: #9c3021;
+    color: #691509;
+}
+/*TITULO*/
+.titulo {
+position: absolute;
+    margin-top: -15%;
+    margin-left: 24%;
+    font-size: 2.8vw;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+}
+
+#subtitulo {
+position: absolute;
+margin-top: -10%;
+margin-left: 30;
+font-size: 2vw;
+color: #fff;
+font-family: 'Arimo', sans-serif;
+}
+/*ACESSIBILIDADE*/
+nav {
+    display: block;
+}
+@media screen and (max-width: 992px)
+.anhanguera_ .first-level-menu-container {
+    background-color: #F05A22;
+}
+@media screen and (max-width: 992px)
+.first-level-menu-container {
+    background-color: #F5821F;
+}
+.first-level-menu-container {
+    position: relative;
+    display: block;
+    padding: 4px 0;
+    background-color: #444;
+    z-index: 2;
+}
+.accessibility-nav {
+    position: relative;
+    display: inline-block;
+    margin-right: auto;
+}
+.acessibility-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+.acessibility-list li.btn-item {
+    font-size: 18px;
+    font-weight: 700;
+    cursor
+    pointer;
+}
+.acessibility-list li {
+    position: relative;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+    user-select: none;
+}
+.acessibility-list {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    user-select: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+@media screen and (max-width: 992px)
+.accessibility-nav {
+    margin: 0 auto;
+}
+/*MAPA*/
+#map {
+    display: none;
+}
+
+#map .state {
+    cursor: pointer;
+}
+
+#map .state .shape {
+    cursor: pointer;
+    -width: 0;
+}
+
+#map .state .label_icon_state {
+    fill: #fff;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: normal;
+}
+
+#map .state .label_state {
+    display: none;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+#map .state:hover .label_state,
+#map .state.hover .label_state {
+    display: block;
+}
+
+#map .model-green .state .shape {
+    fill: #691509;
+}
+
+#map .model-green .state .icon_state {
+    fill: #691509;
+}
+
+#map .model-green .state .label_icon_state {
+    fill: #fff;
+}
+
+#map .model-green .state .label_state {
+    fill: #666;
+}
+
+#map .model-green .state:hover .shape,
+#map .model-green .state.hover .shape {
+    fill: #9c3021;
+}
+
+#map .model-green .state:hover .icon_state,
+#map .model-green .state.hover .icon_state {
+    fill: #9c3021;
+}
+
+#map .model-orange .state .shape {
+    fill: #fd7132;
+}
+
+#map .model-orange .state .icon_state {
+    fill: #6cb361;
+}
+
+#map .model-orange .state .label_icon_state {
+    fill: #fff;
+}
+
+#map .model-orange .state .label_state {
+    fill: #666;
+}
+
+#map .model-orange .state:hover .shape,
+#map .model-orange .state.hover .shape {
+    fill: #9c3021;
+}
+
+#map .model-orange .state:hover .icon_state,
+#map .model-orange .state.hover .icon_state {
+    fill: #9c3021;
+}
+
+#map .model-darkgreen .state .shape {
+    fill: #366823;
+}
+
+#map .model-darkgreen .state .icon_state {
+    fill: #2779c6;
+}
+
+#map .model-darkgreen .state .label_icon_state {
+    fill: #fff;
+}
+
+#map .model-darkgreen .state .label_state {
+    fill: #666;
+}
+
+#map .model-darkgreen .state:hover .shape,
+#map .model-darkgreen .state.hover .shape {
+    fill: #9c3021;
+}
+
+#map .model-darkgreen .state:hover .icon_state,
+#map .model-darkgreen .state.hover .icon_state {
+    fill: #9c3021;
+}
